@@ -1,0 +1,141 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, strong, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, figcaption, footer, header, hgroup, nav, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	font-size: .625em;
+	font-family: 'Average Sans', sans-serif;
+}
+
+.wrap {
+	width: 960px;
+	margin: 0 auto;
+	font-size: 1.6em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Audiowide', cursive;
+}
+
+header {
+	background-color: #444449;
+	border-bottom: 5px solid #626293;
+	overflow: hidden;
+}
+
+#brand {
+	overflow: hidden;
+}
+
+#brand, nav, section, footer {
+	padding: 10px;
+}
+
+#logo {
+	float: left;
+	width: 100px;
+	cursor: pointer;
+	font-style: italic;
+	font-size: 3em;
+	color: #9999CC;
+	margin-bottom: -15px;
+}
+
+#subLogo {
+	clear: left;
+	color: #f2f2f2;
+	font-size: .563em;
+}
+
+#toolbar {
+	background-color: #626293;
+	color: #f2f2f2;
+	padding: 5px;
+	overflow: hidden;
+}
+
+#date {
+	float: right;
+	width: 300px;
+}
+
+#main-nav {
+	margin-top: 10px;
+}
+
+#brand, #main-nav {
+	clear: right;
+	float: left;
+}
+
+#main-nav, #bottom-nav {
+	list-style: none;
+	overflow: hidden;
+}
+
+#main-nav li {
+	float: left;
+	text-align: center;
+	padding: 5px;
+	width: 75px;
+	font-size: 18px;
+}
+
+#bottom-nav li {
+	float:left;
+	margin-right: 20px;
+	width: auto;
+}
+
+#main-nav li a, #bottom-nav li a {
+	display: block;
+	line-height: 24px;
+	color: rgba(242,242,242,.8);
+	text-decoration: none;
+}
+
+#main-nav li a:hover, #bottom-nav li a:hover {
+	color: #ffffff;
+}
+
+#pbNumbers {
+	list-style: none;
+}
+
+#pbNumbers li {
+	display: inline-block;
+	margin-right: 20px;
+	background-color: #f2f2f2;
+	border: 1px solid #222;
+	border-radius: 50px;
+	padding: 10px;
+	font-size: 28px;
+	font-family: 'Helvetica Neue';
+	text-align: center;
+	min-width: 35px;
+}
+
+#pbNumbers li:last-child {
+	background-color: firebrick;
+	color: #fff;
+	margin-right: 0;
+}
+
+footer {
+	background-color: #444449;
+	border-top: 5px solid #626293;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+#powerball-nums h2 {
+	color: #9999CC;
+	font-size: 2.6em;
+}

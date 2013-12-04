@@ -1,0 +1,250 @@
+/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+          << RESET >>
+/////////////////////////////////*/
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, strong, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, figcaption, footer, header, hgroup, nav, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+      << GENERAL ELEMENTS >>
+/////////////////////////////////*/
+body {
+	font-size: .625em;
+	font-family: 'Average Sans', sans-serif;
+	color: #444449;
+}
+
+.wrap {
+	width: 960px;
+	margin: 0 auto;
+	font-size: 1.6em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Audiowide', cursive;
+	color: #9999CC;
+}
+
+
+/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+      << HEADER/MAIN NAV >>
+/////////////////////////////////*/
+header {
+	background-color: #444449;
+	border-bottom: 5px solid #626293;
+	overflow: hidden;
+
+}
+
+#brand {
+	overflow: hidden;
+}
+
+#brand, nav, section, footer {
+	padding: 10px;
+}
+
+#logo {
+	float: left;
+	width: 100px;
+	cursor: pointer;
+	font-style: italic;
+	font-size: 3em;
+	margin-bottom: -15px;
+}
+
+#subLogo {
+	clear: left;
+	color: #f2f2f2;
+	font-size: .563em;
+}
+
+#toolbar {
+	background-color: #626293;
+	color: #f2f2f2;
+	padding: 5px;
+	overflow: hidden;
+}
+
+#date {
+	float: right;
+	width: 300px;
+}
+
+#main-nav {
+	margin-top: 10px;
+}
+
+#brand, #main-nav {
+	clear: right;
+	float: left;
+}
+
+#main-nav, #bottom-nav {
+	list-style: none;
+	overflow: hidden;
+}
+
+#main-nav li {
+	float: left;
+	text-align: center;
+	padding: 5px;
+	width: 75px;
+	font-size: 18px;
+}
+
+#main-nav li a, #bottom-nav li a {
+	display: block;
+	line-height: 24px;
+	color: rgba(242,242,242,.8);
+	text-decoration: none;
+}
+
+#main-nav li a:hover, #bottom-nav li a:hover {
+	color: #ffffff;
+}
+
+
+/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+          << FORM >>
+/////////////////////////////////*/
+form {
+	margin: 30px 60px 30px 0;
+	float: left;
+	width: 550px;
+}
+
+input[type="text"], input[type="email"], input[type="url"] {
+	margin: 0 0 10px 10px;
+	padding: 5px;
+	width: 250px;
+	font-size: 1em;
+}
+
+label {
+	text-align: right;
+	display: block;
+	width: 80px;
+	float: left;
+	line-height: 2.2em;
+}
+
+#submitBtn {
+	background-color: #626293;
+	color: #f2f2f2;
+	border: none;
+	font-size: 1.8em; /* 18px */
+	width: 265px;
+	cursor: pointer;
+	margin-left: 90px;
+	padding: 5px;
+}
+
+#submitBtn:hover {
+	background-color: #9999CC;
+	color: #444449;
+}
+
+#userDetails {
+	float: left;
+	width: 320px;
+	margin-top: 30px;
+	border-left: 2px solid #626293;
+	padding-left: 20px;
+	min-height: 450px;
+}
+
+.format {
+	color: #f2f2f2;
+	font-weight: bold;
+}
+
+.userInfoLabel {
+	font: small-caps bold 1em 'Audiowide', cursive;
+}
+
+.errorMsg {
+	margin-bottom: 10px;
+	background-color: rgba(139,0,0,.6);
+	color: #f2f2f2;
+	overflow: hidden;
+	border: 2px solid darkred;
+	/*min-height: 20px;*/
+}
+
+.warning {
+	display: block;
+	background-color: lightyellow;
+	color: darkred;
+	padding: 2px 5px;
+	margin-right: 5px;
+	width: 10px;
+	font-weight: bold;
+	float: left;
+	min-height: 20px;
+	font-size: 1.4em;
+	border-right: 2px solid darkred;
+	border-bottom: 2px solid darkred;
+	text-align: center;
+}
+
+
+/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+         << AD SPACE >>
+/////////////////////////////////*/
+#adspace {
+	margin-bottom: 30px;
+	clear: left;
+}
+
+#pbNumbers {
+	list-style: none;
+}
+
+#pbNumbers li {
+	display: inline-block;
+	margin-right: 20px;
+	background-color: #f2f2f2;
+	border: 1px solid #222;
+	border-radius: 50px;
+	padding: 10px;
+	font-size: 28px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-align: center;
+	min-width: 35px;
+}
+
+#pbNumbers li:last-child {
+	background-color: firebrick;
+	color: #fff;
+	margin-right: 0;
+}
+
+#powerball-nums h2 {
+	font-size: 2.6em;
+}
+
+
+/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+          << FOOTER >>
+/////////////////////////////////*/
+footer {
+	background-color: #444449;
+	border-top: 5px solid #626293;
+	position: relative;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+#bottom-nav li {
+	float:left;
+	margin-right: 20px;
+	width: auto;
+}
